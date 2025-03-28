@@ -3,6 +3,15 @@
 Tool to get phone number information.
 Free api.
 
+## API 
+
+From update 1.1.0, the API milking on the bases in our library has become available
+
+Use api
+```
+curl -X POST http://185.252.146.112:3434/api/generate-key
+```
+
 ## Installation
 
 * `apt-get update -y`
@@ -15,6 +24,6 @@ Free api.
 * `git clone https://github.com/metelity/pdrone`
 * `cd $HOME`
 * `ls`
-* `cd ipdrone`
+* `cd pdrone`
 * `ls`
 * `pdrone -s (your victim phone here)`
